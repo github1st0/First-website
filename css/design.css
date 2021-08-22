@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@700&display=swap');
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Teko', sans-serif; */
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Teko', sans-serif;
+}
+nav{
+    
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 255, 255,0.67);
+    padding:0 100px;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 0.7px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+    color:rgb(20, 133, 133);
+}
+.main-menu{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+.main-menu li{
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+.dropdown-list{
+    position: relative;
+}
+.main-menu li  a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.main-menu li i{
+    font-size: 30px;
+}
+.dropdown-menu{
+    padding: 10px;
+    margin: 0px;
+    background-color: rgba(180, 247, 247, 0.67);
+    text-emphasis-color: blue;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+.main-menu .dropdown-menu li{
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.dropdown-list:hover .dropdown-menu{
+    display: block;
+}
+.main-menu li a:hover{
+    color: red;
+    background-color: rgb(210, 223, 215);
+}
+
+/* .home-list{
+    list-style: none;
+    margin-left:-110px;
+    padding-bottom:20px;
+    position: absolute;
+}
+.main-menu .home-dropdown .home-list li a{
+    margin-bottom:10px;
+} */
+/* --------->>>baner<<<-------- */
+.banner{
+    background-image: url("../img/he.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 255, 255,0.67);
+    background-blend-mode: overlay;
+    color: cornflowerblue;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-box{
+    display: flex;
+    padding: 0px 100px;
+}
+.banner-box .banner-left{
+    padding-top: 50px;
+}
+.banner-left h2{
+    font-size: 46px;
+    color: rgb(17, 14, 1);
+    padding-top: 30px;
+    text-align: left;
+}
+.banner-left p{
+    font-size: 22px;
+    margin-top: -35px;
+    color: rgb(2, 22, 68);
+    text-align: left;
+}
+.banner-right{
+    padding-left: 100px;
+}
+.form-text-color{
+    color: black;
+    font-size: 20px;
+}
+/* .inbox{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+@media screen and(max-width:1000px){
+    .inbox{
+        background-color: red;
+    }
+} */
